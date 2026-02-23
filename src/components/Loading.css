@@ -1,0 +1,90 @@
+.loading-container {
+  width: 390px;
+  height: 844px;
+  background-color: #DDE6FA;
+
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+
+  padding: 48px 24px;
+  border-radius: 18px;
+  border: 3px solid #C4D1FC;
+}
+
+.loading-text {
+  margin-top: 120px;
+
+  font-family: 'Kanit', sans-serif;
+  font-size: 20px;
+  color: #1F2937;
+}
+
+.processing-pill {
+  margin-top: 20px;
+
+  padding: 10px 24px;
+  border-radius: 999px;
+
+  background-color: #97A6F4;
+  border: 3px solid #A1B4FF;
+
+  color: #FFFFFF;
+
+  font-family: 'Inter', sans-serif;
+  font-size: 14px;
+}
+
+
+.progress-bar {
+  margin-top: 40px;
+
+  width: 100%;
+  height: 6px;
+  border-radius: 999px;
+
+  background-color: #C7D2FE;
+  overflow: hidden;
+}
+
+.progress-fill {
+  height: 100%;
+  width: 0%;
+
+  background-color: #8B5CF6;
+  border-radius: 999px;
+
+  animation: loading 2.5s linear forwards;
+}
+
+.secondary-bar {
+  margin-top: 16px;
+
+  width: 80px;
+  height: 6px;
+  border-radius: 999px;
+
+  background-color: #8B5CF6;
+  opacity: 0.6;
+}
+
+.footer-text {
+  margin-top: auto;
+
+  font-family: 'JetBrains Mono', monospace;
+  font-size: 12px;
+  font-style: italic;
+  font-weight: 300;
+
+  color: #3A3E4E;
+  text-align: center;
+}
+
+@keyframes loading {
+  from {
+    width: 0%;
+  }
+  to {
+    width: 100%;
+  }
+}

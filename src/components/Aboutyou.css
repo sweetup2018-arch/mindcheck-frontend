@@ -1,0 +1,106 @@
+.about-container {
+  width: 390px;
+  height: 844px;
+  background-color: #DDE6FA;
+
+  display: flex;
+  flex-direction: column;
+
+  padding: 40px 24px;
+  border-radius: 18px;
+  border: 3px solid #C4D1FC;
+}
+
+.about-title {
+  text-align: center;
+  font-family: 'Kanit', sans-serif;
+  font-size: 24px;
+  color: #1F2937;
+  margin-bottom: 12px;
+}
+
+
+.about-text {
+  text-align: center;
+  font-family: 'Inter', sans-serif;
+  font-size: 13px;
+  color: #3A3E4E;
+  margin-bottom: 6px;
+}
+
+
+.about-text-strong {
+  text-align: center;
+  font-family: 'Inter', sans-serif;
+  font-size: 15px;
+  color: #3A3E4E;
+  margin-bottom: 16px;
+}
+
+
+.field-group {
+  margin-top: 24px;
+}
+
+.field-label {
+  font-family: 'Inter', sans-serif;
+  font-weight: 600;
+  font-size: 20px;
+  color: #1F2937;
+  margin-bottom: 8px;
+  display: block;
+}
+
+
+.age-input {
+  width: 100%;
+  height: 44px;
+
+  background-color: #E0ECFF;
+  border: 3px solid #A1B4FF;
+  border-radius: 8px;
+
+  padding: 0 12px;
+
+  font-family: 'Inter', sans-serif;
+  font-weight: 600;
+  font-size: 16px;
+  color: #1F2937;
+}
+
+.radio-group {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+  font-size: 14px;
+}
+
+.continue-button {
+  margin-top: auto;
+  margin-bottom: 20px;
+
+  height: 52px;
+  border-radius: 10px;
+
+  background-color: #97A6F4;
+  border: 3px solid #A1B4FF;
+
+  font-family: 'Itim', cursive;
+  font-size: 20px;
+  color: #F5F5F5;
+
+  cursor: pointer;
+}
+
+
+.footer-text {
+  margin-top: 10px;
+
+  font-family: 'JetBrains Mono', monospace;
+  font-size: 12px;
+  font-weight: 300;
+  font-style: italic;
+
+  text-align: center;
+  color: #3A3E4E;
+}
