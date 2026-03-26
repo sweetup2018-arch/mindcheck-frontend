@@ -1,4 +1,4 @@
-const BASE_URL = "https://mindcheck-backend-ynog.onrender.com";
+const BASE_URL = "https://mindcheck-backend-uol1.onrender.com";
 
 export async function submitWellness(formData) {
   const response = await fetch(`${BASE_URL}/submit`, {
